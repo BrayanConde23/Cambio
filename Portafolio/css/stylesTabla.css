@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient( lightslategrey, white, blue, bisque, blanchedalmond);
+}
+
+main {
+    text-align: center;
+}
+
+td,p {
+    background-color: bisque;
+    text-align: center;
+}
+
+nav {
+    background-color: lightslategrey;
+    color: black;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+}
+
+ul {
+    list-style-type: disclosure-closed;
+}
+
+.encabezados {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+}

@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+}
+
+/* ---------------------------------------------------------- */
+.barra_encabezado {
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/950/222/498/surface-black-wallpaper-preview.jpg");
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+.imagen_encabezado{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+.barra_opaca {
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 100%;
+    height: 20%;
+}
+
+.contenido_barra_opaca {
+    /* background-color: antiquewhite; */
+    display: flex;
+    gap: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+.bi-briefcase {
+    width: 70px;
+    height: 70px;  
+    margin-top: 25px;  
+    margin-left: 20px;
+}
+
+.titulo_pagina {
+    display: flex;
+}
+
+.parrafo_barra {
+    font-size: 75px;
+    margin-top: 2px;
+}
+
+.boton_tabla {
+    display: flex;
+    justify-content: right;
+}
+
+.fuckyou {
+    height: 4%;
+    margin-top: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    /* margin-left: 1215px; */
+}
+
+.contenido_encabezado {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 80%;
+}
+
+.imagen_encabezado {
+    /* background-color: antiquewhite; */
+    margin: auto;
+    width: 80%;
+    height: 40%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bi-file-person {
+    margin-top: 5px;
+    width: 10%;
+    height: 90%;
+    border: 4px dotted rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.parrafo_encabezado {
+    /* background-color: rgb(255, 154, 22); */
+    margin: auto;
+    width: 60%;
+    height: 38%;
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px dotted rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.445);
+}
+/* ---------------------------------------------------------- */
+
+/* ---------------------------------------------------------- */
+.primer_contenido{
+    background-color: rgba(0, 0, 0, 0.13);
+    margin: auto;
+    margin-top: 30px;
+    width: 98%;
+}
+
+.sobre_mi {
+    /* background-color: rgb(122, 81, 27); */
+    margin: auto;
+    width: 80%;
+    color: white;
+}
+
+.parrafo_sobre_mi {
+    /* background-color: rgb(255, 153, 0); */
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+hr {
+    border: 2px solid rgb(0, 0, 0);
+    width: 50%;
+    margin: auto;
+}
+
+h3,
+h5 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.información {
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parrafos_informacion {
+    /* background-color: rgb(0, 0, 0); */
+    margin: auto;
+    margin-top: 60px;
+    width: 45%;
+    height: 100%;
+}
+
+.segundo_contenido {
+    background-color: rgba(0, 0, 0, 0.13);
+    margin: auto;
+    margin-top: 30px;
+    width: 98%;
+}
+
+
+
